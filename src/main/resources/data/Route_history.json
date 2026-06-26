@@ -1,0 +1,172 @@
+[{
+  "_id": {
+    "$oid": "6a3d1a4d7e7cb07c927ee119"
+  },
+  "routeId": "1.1.1.1->5.5.5.5",
+  "source": "1.1.1.1",
+  "destination": "5.5.5.5",
+  "pathString": "1.1.1.1-->5.5.5.5",
+  "weight": 10,
+  "pathIds": [
+    "1.1.1.1->5.5.5.5"
+  ],
+  "edges": [
+    {
+      "_id": "1.1.1.1->5.5.5.5",
+      "source": "1.1.1.1",
+      "destination": "5.5.5.5",
+      "weight": 10,
+      "active": true
+    }
+  ],
+  "createdAt": {
+    "$date": "2026-06-25T12:08:45.010Z"
+  },
+  "_class": "com.example.dijkstra.model.collection.RouteHistory"
+},
+{
+  "_id": {
+    "$oid": "6a3d1ab97e7cb07c927ee11a"
+  },
+  "routeId": "1.1.1.1->3.3.3.3",
+  "source": "1.1.1.1",
+  "destination": "3.3.3.3",
+  "pathString": "1.1.1.1-->3.3.3.3",
+  "weight": 7,
+  "pathIds": [
+    "1.1.1.1->3.3.3.3"
+  ],
+  "edges": [
+    {
+      "_id": "1.1.1.1->3.3.3.3",
+      "source": "1.1.1.1",
+      "destination": "3.3.3.3",
+      "weight": 7,
+      "active": true
+    }
+  ],
+  "createdAt": {
+    "$date": "2026-06-25T12:10:33.158Z"
+  },
+  "_class": "com.example.dijkstra.model.collection.RouteHistory"
+},
+{
+  "_id": {
+    "$oid": "6a3d1b5a7e7cb07c927ee11b"
+  },
+  "routeId": "1.1.1.1->3.3.3.3",
+  "source": "1.1.1.1",
+  "destination": "3.3.3.3",
+  "pathString": "1.1.1.1-->2.2.2.2-->3.3.3.3",
+  "weight": 9,
+  "pathIds": [
+    "1.1.1.1->2.2.2.2",
+    "2.2.2.2->3.3.3.3"
+  ],
+  "edges": [
+    {
+      "_id": "1.1.1.1->2.2.2.2",
+      "source": "1.1.1.1",
+      "destination": "2.2.2.2",
+      "weight": 4,
+      "active": true
+    },
+    {
+      "_id": "2.2.2.2->3.3.3.3",
+      "source": "2.2.2.2",
+      "destination": "3.3.3.3",
+      "weight": 6,
+      "active": true
+    }
+  ],
+  "createdAt": {
+    "$date": "2026-06-25T12:13:14.868Z"
+  },
+  "_class": "com.example.dijkstra.model.collection.RouteHistory"
+},
+{
+  "_id": {
+    "$oid": "6a3d1b5a7e7cb07c927ee11c"
+  },
+  "routeId": "2.2.2.2->3.3.3.3",
+  "source": "2.2.2.2",
+  "destination": "3.3.3.3",
+  "pathString": "2.2.2.2-->3.3.3.3",
+  "weight": 6,
+  "pathIds": [
+    "2.2.2.2->3.3.3.3"
+  ],
+  "edges": [
+    {
+      "_id": "2.2.2.2->3.3.3.3",
+      "source": "2.2.2.2",
+      "destination": "3.3.3.3",
+      "weight": 6,
+      "active": true
+    }
+  ],
+  "createdAt": {
+    "$date": "2026-06-25T12:13:14.894Z"
+  },
+  "_class": "com.example.dijkstra.model.collection.RouteHistory"
+},
+{
+  "_id": {
+    "$oid": "6a3e05d0a222b228da4e3a41"
+  },
+  "routeId": "1.1.1.1->6.6.6.6",
+  "source": "1.1.1.1",
+  "destination": "6.6.6.6",
+  "pathString": "1.1.1.1-->6.6.6.6",
+  "weight": 3,
+  "pathIds": [
+    "1.1.1.1->6.6.6.6"
+  ],
+  "edges": [
+    {
+      "_id": "1.1.1.1->6.6.6.6",
+      "source": "1.1.1.1",
+      "destination": "6.6.6.6",
+      "weight": 3,
+      "active": true
+    }
+  ],
+  "createdAt": {
+    "$date": "2026-06-26T04:53:36.569Z"
+  },
+  "_class": "com.example.dijkstra.model.collection.RouteHistory"
+},
+{
+  "_id": {
+    "$oid": "6a3e05d0a222b228da4e3a42"
+  },
+  "routeId": "1.1.1.1->7.7.7.7",
+  "source": "1.1.1.1",
+  "destination": "7.7.7.7",
+  "pathString": "1.1.1.1-->6.6.6.6-->7.7.7.7",
+  "weight": 9,
+  "pathIds": [
+    "1.1.1.1->6.6.6.6",
+    "6.6.6.6->7.7.7.7"
+  ],
+  "edges": [
+    {
+      "_id": "1.1.1.1->6.6.6.6",
+      "source": "1.1.1.1",
+      "destination": "6.6.6.6",
+      "weight": 3,
+      "active": true
+    },
+    {
+      "_id": "6.6.6.6->7.7.7.7",
+      "source": "6.6.6.6",
+      "destination": "7.7.7.7",
+      "weight": 6,
+      "active": true
+    }
+  ],
+  "createdAt": {
+    "$date": "2026-06-26T04:53:36.673Z"
+  },
+  "_class": "com.example.dijkstra.model.collection.RouteHistory"
+}]
